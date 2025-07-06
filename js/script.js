@@ -1,4 +1,4 @@
-let candidate = Number(localStorage["boo1Unefco"]);
+let candidate = Number(localStorage["book2Unefco"]);
 let currentPage = 0;
 if (candidate > -1 && candidate < Object.keys(textData).length - 1) {
   currentPage = candidate;
@@ -100,9 +100,8 @@ function colorButton() {
   const indexButton20 = document.getElementById("index-button20");
   const indexButton21 = document.getElementById("index-button21");
   const indexButton22 = document.getElementById("index-button22");
-  const indexButton23 = document.getElementById("index-button23");
 
-  if (currentPage >= 0 && currentPage <= 4) {
+  if (currentPage >= 0 && currentPage <= 3) {
     indexButton1.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -125,9 +124,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 5 && currentPage <= 11) {
+  if (currentPage === 4) {
     indexButton2.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -150,11 +148,10 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 6) {
+  if (currentPage >= 5 && currentPage <= 21) {
     indexButton3.style.fontWeight = "bold";
-    indexButton2.style.fontWeight = "bold";
+    indexButton2.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
@@ -175,12 +172,11 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 7) {
+  if (currentPage >= 6 && currentPage <= 7) {
     indexButton4.style.fontWeight = "bold";
-    indexButton2.style.fontWeight = "bold";
-    indexButton3.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -200,12 +196,11 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 8) {
+  if (currentPage >= 8 && currentPage <= 12) {
     indexButton5.style.fontWeight = "bold";
-    indexButton2.style.fontWeight = "bold";
-    indexButton3.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -225,12 +220,11 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 9 && currentPage <= 10) {
+  if (currentPage >= 13 && currentPage <= 16) {
     indexButton6.style.fontWeight = "bold";
-    indexButton2.style.fontWeight = "bold";
-    indexButton3.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
@@ -250,12 +244,11 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 11) {
+  if (currentPage >= 17 && currentPage <= 20) {
     indexButton7.style.fontWeight = "bold";
-    indexButton2.style.fontWeight = "bold";
-    indexButton3.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -275,12 +268,11 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 12 && currentPage <= 32) {
+  if (currentPage === 21) {
     indexButton8.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -300,9 +292,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 13) {
+  if (currentPage >= 22 && currentPage <= 35) {
     indexButton9.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -310,7 +301,7 @@ function colorButton() {
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "bold";
+    indexButton8.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
@@ -325,9 +316,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 14 && currentPage <= 16) {
+  if (currentPage >= 23 && currentPage <= 24) {
     indexButton10.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -335,8 +325,8 @@ function colorButton() {
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "bold";
-    indexButton9.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -350,9 +340,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 17 && currentPage <= 21) {
+  if (currentPage === 25) {
     indexButton11.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -360,8 +349,8 @@ function colorButton() {
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "bold";
-    indexButton9.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -375,9 +364,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 22 && currentPage <= 27) {
+  if (currentPage >= 26 && currentPage <= 29) {
     indexButton12.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -385,8 +373,8 @@ function colorButton() {
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "bold";
-    indexButton9.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
@@ -400,9 +388,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 28 && currentPage <= 31) {
+  if (currentPage >= 30 && currentPage <= 34) {
     indexButton13.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -410,8 +397,8 @@ function colorButton() {
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "bold";
-    indexButton9.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -425,9 +412,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 32) {
+  if (currentPage === 35) {
     indexButton14.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -435,8 +421,8 @@ function colorButton() {
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "bold";
-    indexButton9.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -450,9 +436,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 33 && currentPage <= 47) {
+  if (currentPage >= 36 && currentPage <= 49) {
     indexButton15.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -475,9 +460,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 34) {
+  if (currentPage >= 37 && currentPage <= 38) {
     indexButton16.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -500,9 +484,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 35 && currentPage <= 36) {
+  if (currentPage === 39) {
     indexButton17.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -525,9 +508,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 37 && currentPage <= 40) {
+  if (currentPage === 40) {
     indexButton18.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -550,9 +532,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 41 && currentPage <= 43) {
+  if (currentPage >= 41 && currentPage <= 47) {
     indexButton19.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -575,9 +556,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage >= 44 && currentPage <= 46) {
+  if (currentPage >= 48 && currentPage <= 49) {
     indexButton20.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -600,9 +580,8 @@ function colorButton() {
     indexButton1.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 47) {
+  if (currentPage >= 50 && currentPage <= 54) {
     indexButton21.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -617,7 +596,7 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "bold";
+    indexButton15.style.fontWeight = "normal";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
@@ -625,9 +604,8 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
   }
-  if (currentPage === 48) {
+  if (currentPage === 55) {
     indexButton22.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -650,32 +628,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
-    indexButton23.style.fontWeight = "normal";
-  }
-  if (currentPage === 49) {
-    indexButton23.style.fontWeight = "bold";
-    indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
-    indexButton4.style.fontWeight = "normal";
-    indexButton5.style.fontWeight = "normal";
-    indexButton6.style.fontWeight = "normal";
-    indexButton7.style.fontWeight = "normal";
-    indexButton8.style.fontWeight = "normal";
-    indexButton9.style.fontWeight = "normal";
-    indexButton10.style.fontWeight = "normal";
-    indexButton11.style.fontWeight = "normal";
-    indexButton12.style.fontWeight = "normal";
-    indexButton13.style.fontWeight = "normal";
-    indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "normal";
-    indexButton16.style.fontWeight = "normal";
-    indexButton17.style.fontWeight = "normal";
-    indexButton18.style.fontWeight = "normal";
-    indexButton19.style.fontWeight = "normal";
-    indexButton20.style.fontWeight = "normal";
-    indexButton21.style.fontWeight = "normal";
-    indexButton22.style.fontWeight = "normal";
-    indexButton1.style.fontWeight = "normal";
   }
 }
 //Rastrear el click en en DOM dinamico
@@ -695,7 +647,7 @@ const handleDomCLick = (event) => {
   } else if (classIdentifier === "para") {
     let targetIdButton = "buttonParag" + currentParagNumber;
     const pointedButton = document.getElementById(targetIdButton);
-    pointedButton.style.backgroundColor = "#1d3e8b";
+    pointedButton.style.backgroundColor = "#854d92";
   }
 };
 
@@ -772,7 +724,7 @@ function setVisible(value) {
   } else if (value === 2) {
     let alt2 = 0;
     if (show2.clientHeight === 0) {
-      alt2 = "9em";
+      alt2 = "7.5em";
     }
     show2.style.height = alt2;
     show1.style.height = 0;
@@ -780,7 +732,7 @@ function setVisible(value) {
   } else if (value === 3) {
     let alt3 = 0;
     if (show3.clientHeight === 0) {
-      alt3 = "9em";
+      alt3 = "7.5em";
     }
 
     show3.style.height = alt3;
@@ -791,7 +743,7 @@ function setVisible(value) {
 //Guardar en la memoria cache
 function cachePage() {
   let currentPageString = String(currentPage);
-  localStorage["boo1Unefco"] = currentPageString;
+  localStorage["book2Unefco"] = currentPageString;
 }
 
 //Crear el DOM dinamico
@@ -870,90 +822,85 @@ function CLayOutGenerator(titles, text, page) {
   return ` 
   <div id="Clayout-container">
     <h1 class="titles" id="Ctitle">${titles[page]}</h1>
-
-      <div id="Cindex-buttons" class="row">
-        <div id="column1" class="col-xs-12 col-sm-6">
-          <hr class="visible-xs"/>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(3)">&#9674 Presentaci&oacuten</button> 
-          </div>
-          <hr/>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(5)"> <b>TEMA 1: BASE NORMATIVA</b></button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(6)">&#9674 Actividad de inicio </button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(7)">&#9674 Normativa Internacional</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(8)">&#9674 Normativa Nacional</button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(9)">&#9674 Normativa emitida por el Ministerio de Educación</button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(11)">&#9674 Actividad Sugerida</button>
-          </div>
+    <div id="Cindex-buttons" class="row">
+      <div id="column1" class="col-xs-12 col-sm-6">
+      <hr class="visible-xs"/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(3)">&#9674 Presentaci&oacuten</button> 
         </div>
-        <div id="column2" class="col-xs-12 col-sm-6">
-          <hr class="visible-xs"/>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(12)"><b>TEMA 2: COMPREDER EL CONFLICTO EN EL ENTORNO EDUCATIVO</b></button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(13)">&#9674 Actividad de inicio</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(14)">&#9674 Conflicto en el ambito educativo</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(17)">&#9674 Características del conflicto</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(22)">&#9674 Factores de riesgo y violencia</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(28)">&#9674 Herramientas restaurativas</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(32)">&#9674 Actividad sugerida</button> 
-          </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(4)">&#9674 Datos generales del cuaderno</button> 
         </div>
-        
-        <div id="column3" class="col-xs-12 col-sm-6">
-          <hr class="visible-xs visible-sm visible-md"/>  
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(33)"><b>TEMA 3: ENFOQUE RESTAURATIVO</b></button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(34)">&#9674 Actividad de inicio </button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(35)">&#9674 Enfoque restaurativo</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(37)">&#9674 Enfoques punitivo y restaurativo</button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(41)">&#9674 Principios restaurativos</button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(44)">&#9674 Disciplina social</button> 
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(47)">&#9674 Actividad sugerida</button> 
-          </div>
-          <hr class="visible-xs"/>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(48)">&#9674 Glosario</button>
-          </div>
-          <div class="button-index-container">
-            <button class="index-big-buttons" onclick="setPage(49)">&#9674 Bibliografía</button>
-          </div>
+        <hr/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(5)"><b>TEMA 1: DE LA JUSTICIA RESTAURATIVA A LAS PRÁCTICAS</b></button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(6)">&#9674 Actividad de inicio 1  </button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(8)">&#9674 Aspectos fundamentales de la Justicia Restaurativa en la unidad educativa</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(13)">&#9674 Tipos de la violencia en el sistema educativo</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(17)">&#9674 Consecuencias emocionales por agresión</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(21)">&#9674 Actividad Sugerida 1</button>
         </div>
       </div>
+      <div id="column2" class="col-xs-12 col-sm-6">
+        <hr class="visible-xs"/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(22)"><b>TEMA 2 COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</b></button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(23)">&#9674 Actividad de inicio 2</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(25)">&#9674 Las bases de una comunidad educativa restaurativa</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(26)">&#9674 Maestros como facilitadores de las prácticas restaurativas</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(30)">&#9674  Consejo Educativo en la prevención de conflictos.</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(35)">&#9674 Actividad sugerida 2</button> 
+        </div>  
+      </div>
+      <div id="column3" class="col-xs-12 col-sm-6">
+        <hr class="visible-xs visible-sm visible-md"/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(36)"><b>TEMA 3: CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</b></button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(37)">&#9674 Actividad de inicio 3 </button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(39)">&#9674 Concepto y características de una zona restaurativa</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(40)">&#9674 El rol de los integrantes de la comunidad educativa en una zona restaurativa</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(41)">&#9674 Actividades con enfoque restaurativo</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(48)">&#9674 Actividad sugerida 3</button> 
+        </div>
+        <hr/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(50)">&#9674 Glosario</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(55)">&#9674 Bibliografía</button>
+        </div>
+      </div>
+    </div>
   </div>`;
 }
 
@@ -1399,7 +1346,7 @@ function masterRender() {
   renderPage();
   const pointedButton = document.getElementById("buttonParag1");
   if (pointedButton && currentParagNumber === 1) {
-    pointedButton.style.backgroundColor = "#1d3e8b";
+    pointedButton.style.backgroundColor = "#854d92";
   }
 }
 masterRender();
