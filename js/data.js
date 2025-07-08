@@ -1209,7 +1209,7 @@ const popUp_md_Data = {
   58: "",
 };
 const images_xs_Data = {
-  0: "caratula.png",
+  0: "caratula_XS.png",
   1: "",
   2: "",
   3: "",
@@ -1331,7 +1331,7 @@ const images_xs_Data = {
   58: "",
 };
 const images_sm_Data = {
-  0: "caratula.png",
+  0: "caratula_SM.png",
   1: "",
   2: "",
   3: "",
@@ -1453,7 +1453,7 @@ const images_sm_Data = {
   58: "",
 };
 const images_md_Data = {
-  0: "caratula.png",
+  0: "caratula_MD.png",
   1: "",
   2: "",
   3: "",
