@@ -919,7 +919,7 @@ hr {
 
 .Mlayout #Mcarousel-container #Mparag-container {
   background-color: white;
-  width: 80%;
+  width: 90%;
   height: 74%;
   margin: auto;
   padding-top: 1%;
@@ -4371,7 +4371,7 @@ hr {
 
   .Mlayout #Mlayout-container #Mtext-container {
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 8em;
     height: auto;
   }
   .Mlayout #Mlayout-container #Mtext {
