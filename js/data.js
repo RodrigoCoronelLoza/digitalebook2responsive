@@ -195,7 +195,7 @@ const layoutData = {
   26: "Dlayout",
   27: "Jlayout",
   28: "Dlayout",
-  29: "Klayout",
+  29: "Olayout",
   30: "Dlayout",
   31: "Jlayout",
   32: "Glayout",
@@ -552,11 +552,17 @@ const popUp_xs_Data = {
     //contentModal: "layOutD.jpg",
     //buttonName: "+",
     //},
+    // {
+    //   title: " ",
+    //   typeofContent: "text",
+    //   contentModal:
+    //     "Las prácticas restaurativas en el ámbito educativo se basan en el desarrollo de la comunidad a partir del fortalecimiento de los vínculos. Cuando se dan conflictos en la vida del centro, lo que se busca es la reparación de los daño o falta u ofensas causados asumiendo responsabilidades. (Gonzales, 2022)",
+    //   buttonName: "Abrir",
+    // },
     {
-      title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Las prácticas restaurativas en el ámbito educativo se basan en el desarrollo de la comunidad a partir del fortalecimiento de los vínculos. Cuando se dan conflictos en la vida del centro, lo que se busca es la reparación de los daño o falta u ofensas causados asumiendo responsabilidades. (Gonzales, 2022)",
+      title: "",
+      typeofContent: "image",
+      contentModal: "PAG26POP-1_XS.png",
       buttonName: "Abrir",
     },
   ],
@@ -811,10 +817,9 @@ const popUp_sm_Data = {
     //buttonName: "+",
     //},
     {
-      title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Las prácticas restaurativas en el ámbito educativo se basan en el desarrollo de la comunidad a partir del fortalecimiento de los vínculos. Cuando se dan conflictos en la vida del centro, lo que se busca es la reparación de los daño o falta u ofensas causados asumiendo responsabilidades. (Gonzales, 2022)",
+      title: "",
+      typeofContent: "image",
+      contentModal: "PAG26POP-1_SM.png",
       buttonName: "Abrir",
     },
   ],
@@ -1062,10 +1067,9 @@ const popUp_md_Data = {
     //buttonName: "+",
     //},
     {
-      title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Las prácticas restaurativas en el ámbito educativo se basan en el desarrollo de la comunidad a partir del fortalecimiento de los vínculos. Cuando se dan conflictos en la vida del centro, lo que se busca es la reparación de los daño o falta u ofensas causados asumiendo responsabilidades. (Gonzales, 2022)",
+      title: "",
+      typeofContent: "image",
+      contentModal: "PAG26POP-1_MD.png",
       buttonName: "Abrir",
     },
   ],
