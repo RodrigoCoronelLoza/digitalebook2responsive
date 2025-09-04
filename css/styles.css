@@ -1865,6 +1865,8 @@ hr {
   .Blayout {
     height: auto;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Blayout #Blayout-container {
     height: auto;
@@ -1881,6 +1883,8 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Clayout #Clayout-container {
     height: auto;
@@ -1905,6 +1909,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Dlayout h1 {
     margin: 0;
@@ -1927,6 +1933,8 @@ hr {
     padding-top: 5em;
     padding-bottom: 5em;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
 
   .Elayout #Elayout-container {
@@ -1978,6 +1986,8 @@ hr {
     width: 100%;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Flayout #Flayout-container {
     height: auto;
@@ -2038,6 +2048,8 @@ hr {
     font-size: 1.2em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Glayout #Glayout-container {
     height: auto;
@@ -2107,6 +2119,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
 
   .Hlayout #Hlayout-container {
@@ -2236,6 +2250,8 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Ilayout #Ilayout-container {
     height: auto;
@@ -2320,6 +2336,8 @@ hr {
     width: 100%;
     margin-bottom: 2em;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Jlayout #Jlayout-container #Jtitle {
     height: auto;
@@ -2381,6 +2399,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
 
   .Llayout #Llayout-container {
@@ -2457,6 +2477,8 @@ hr {
     min-height: 90vh;
     width: 100%;
     margin-bottom: 2em;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Mlayout #Mlayout-container {
     height: auto;
@@ -2518,6 +2540,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHACKANA_MD.png");
+    background-size: 100% 100%;
   }
   .Nlayout #Nlayout-container {
     height: auto;
@@ -2740,6 +2764,8 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Blayout #Blayout-container {
     height: auto;
@@ -2758,6 +2784,8 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Clayout #Clayout-container {
     height: auto;
@@ -2782,6 +2810,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Dlayout h1 {
     margin-top: 1em;
@@ -2872,6 +2902,8 @@ hr {
     padding-top: 5em;
     padding-bottom: 5em;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Elayout #Elayout-container {
     height: auto;
@@ -2921,6 +2953,8 @@ hr {
     width: 100%;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Flayout #Flayout-container {
     height: auto;
@@ -2981,6 +3015,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
 
   .Glayout #Glayout-container {
@@ -3054,6 +3090,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Hlayout #Hlayout-container {
     height: auto;
@@ -3189,6 +3227,8 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Ilayout #Ilayout-container {
     height: auto;
@@ -3262,6 +3302,8 @@ hr {
     width: 100%;
     margin-bottom: 2em;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Jlayout #Jlayout-container #Jtitle {
     height: auto;
@@ -3321,6 +3363,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Llayout #Llayout-container {
     height: auto;
@@ -3398,6 +3442,8 @@ hr {
     min-height: 90vh;
     width: 100%;
     margin-bottom: 2em;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Mlayout #Mlayout-container {
     height: auto;
@@ -3459,6 +3505,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHAKANA_SM.png");
+    background-size: 100% 100%;
   }
   .Nlayout #Nlayout-container {
     height: auto;
@@ -3696,8 +3744,8 @@ hr {
     min-height: 90vh;
     width: 100%;
     font-size: 1em;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -3721,8 +3769,8 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -3749,8 +3797,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -3846,8 +3894,8 @@ hr {
     width: 100%;
     padding-top: 1em;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -3890,8 +3938,8 @@ hr {
     width: 100%;
     font-size: 1em;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -3964,8 +4012,8 @@ hr {
     width: 95%;
     margin-bottom: 2em;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -4096,8 +4144,8 @@ hr {
     width: 95%;
     margin-left: 1em;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -4172,8 +4220,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -4249,8 +4297,8 @@ hr {
     width: 100%;
     margin-bottom: 2em;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -4319,8 +4367,8 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -4400,8 +4448,8 @@ hr {
     min-height: 90vh;
     width: 100%;
     margin-bottom: 2em;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }
@@ -4465,8 +4513,8 @@ hr {
     font-size: 1em;
     min-height: 90vh;
     width: 100%;
-    background-image: url("../images/CHA99.png");
-    background-size: 100% 50%;
+    background-image: url("../images/CHAKANA_XS.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top-right;
   }

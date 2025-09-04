@@ -7,7 +7,7 @@ const textData = {
   5: " ",
   6: "Esta actividad busca activar tus saberes iniciales y generar un espacio de diálogo sobre cómo comprendemos la justicia, la convivencia y la reparación del daño dentro de la comunidad educativa. <br><br>   A partir de preguntas detonadoras, experiencias compartidas o mapas conceptuales, podrás identificar cómo se relacionan los valores restaurativos con tu práctica cotidiana, y sentar las bases para un aprendizaje significativo y contextualizado. <br><br>  Recuerda <b> descargar la plantilla </b> Actividad de inicio tema 1 o abrirla en la carpeta de <b> recursos adicionales </b> para llenar tus respuestas.",
   7: "",
-  8: " Para profundizar en <b>  Aspectos fundamentales de la justicia restaurativa en la unidad educativa </b>, avanza con las flechas para revisar más información.",
+  8: "Para profundizar en <b>  aspectos fundamentales de la justicia restaurativa en la unidad educativa </b>, avanza con las flechas para revisar más información.",
   9: " ",
 
   10: "",
